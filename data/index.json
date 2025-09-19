@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "orderForm": ""
+  },
+  "events": [
+    {
+      "id": "sample_event",
+      "title": "Juventus Academy vs Torino Academy",
+      "date": "2025-09-18",
+      "location": "Torino",
+      "homeTeam": "Juventus Academy",
+      "awayTeam": "Torino Academy",
+      "players": [
+        {
+          "side": "home",
+          "name": "PlayerA",
+          "displayName": "Marco Rossi #10",
+          "slug": "marco-rossi-10",
+          "images": [
+            "images/sample_event/home/PlayerA/IMG_0001_preview.jpg",
+            "images/sample_event/home/PlayerA/IMG_0002_preview.jpg"
+          ],
+          "qr": "qr/sample_event/home/PlayerA/marco-rossi-10.png",
+          "token": "abc123"
+        }
+      ]
+    },
+    {
+      "id": "orione-lascaris",
+      "title": "Orione - Lascaris",
+      "date": "2025-09-18",
+      "location": "Torino",
+      "homeTeam": "Orione",
+      "awayTeam": "Lascaris",
+      "players": [
+        {
+          "side": "away",
+          "name": "Sandrino",
+          "displayName": "Sandrino #4",
+          "slug": "sandrino-4",
+          "images": [
+            "images/Orione-Lascaris/away/Sandrino_4/IMG_0001_preview.jpg"
+          ],
+          "qr": "qr/Orione-Lascaris/away/Sandrino_4/sandrino-4.png",
+          "token": "tutti"
+        }
+      ]
+    }
+  ]
+}

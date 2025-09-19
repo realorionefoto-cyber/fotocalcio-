@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foto Calcio — Eventi</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Foto Calcio</h1>
+    <p>Scegli la partita e la squadra, poi il giocatore. Oppure scansiona il QR.</p>
+  </header>
+  <main id="app">
+    <div class="card">
+      <label for="eventSelect">Partita</label>
+      <select id="eventSelect"></select>
+    </div>
+    <div class="row">
+      <div class="card half">
+        <h2>Squadra di casa</h2>
+        <ul id="homeList" class="list"></ul>
+      </div>
+      <div class="card half">
+        <h2>Squadra ospite</h2>
+        <ul id="awayList" class="list"></ul>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <a href="readme.html">Guida rapida</a>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
