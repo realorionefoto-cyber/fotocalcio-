@@ -1,8 +1,8 @@
 {
   "settings": {
-    "orderForm": ""
+    "orderForm": "https://docs.google.com/forms/d/e/1FAIpQLScf41k4YX5kPWzmazPi_RDR9u0fB_igBPxMv4QxMwLTx7kBFg/viewform?usp=dialog"
   },
-  "events": [
+  "events":
     {
       "id": "sample_event",
       "title": "Juventus Academy vs Torino Academy",
